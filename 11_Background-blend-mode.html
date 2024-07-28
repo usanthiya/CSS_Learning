@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Blend in css</title>
+    <style>
+        h1{
+            font-size: 25px;
+            color:fuchsia;
+            text-align: center;
+        }
+        div{
+            border:1px solid;
+            height:300px;
+            width:300px;
+            /* background-image: linear-gradient(red,yellow) , url("images/shoes.jpg"); */
+            background-color: rgb(89, 38, 147);
+            background-image: url("images/shoes.jpg");
+            background-size: contain;
+            background-blend-mode: normal;
+            background-blend-mode: overlay;
+            background-blend-mode: color-dodge;
+            background-blend-mode: lighten;
+            background-blend-mode: difference;
+            background-blend-mode: exclusion;
+            background-blend-mode: hue;
+            background-blend-mode: luminosity;
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Blend</h1>
+    <div>
+
+    </div>
+</body>
+</html>
